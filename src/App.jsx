@@ -36,7 +36,7 @@ function Navbar({ setPage }) {
 function Home() {
   return (
     <div className="text-center bg-warning p-5 rounded shadow">
-      <h1 className="display-4 fw-bold">Welcome to Flavor Fusion</h1>
+      <h1 className="display-4 fw-bold">Welcome to Grand Restaurant</h1>
       <p className="lead">Delicious Food, Great Ambience</p>
       <button className="btn btn-dark btn-lg">Explore Menu</button>
     </div>
@@ -104,7 +104,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="bg-dark text-white text-center py-4 mt-5 rounded-top">
-      <p className="mb-0">&copy; {new Date().getFullYear()} Flavor Fusion</p>
+      <p className="mb-0">&copy; {new Date().getFullYear()} Grand Restaurant</p>
     </footer>
   );
 }
